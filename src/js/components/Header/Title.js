@@ -1,5 +1,22 @@
 import React from "react";
 
+export default class Title extends React.Component {
+      render() {
+          return (
+            <h1>This goes from title: {this.props.title}</h1>
+          );
+      }
+}
+
+
+
+
+
+
+
+/*
+import React from "react";
+
 
 export default class Title extends React.Component {
   render() {
@@ -8,3 +25,4 @@ export default class Title extends React.Component {
     );
   }
 }
+*/
